@@ -1,0 +1,61 @@
+body {
+    /* background-color: rgb(70, 187, 109); */
+    /* background-color:linear-gradient(90deg, rgba(70, 187, 109, 1) 0%, rgba(76, 175, 80, 1) 50%, rgba(70, 187, 109, 1) 100%); */
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    line-height: 1;
+}
+
+.card {
+    /* backdrop-filter: blur(12px) saturate(200%);
+    -webkit-backdrop-filter: blur(12px) saturate(200%); */
+    /* background-color: #6DC06F; */
+    /* background-color: rgba(42, 175, 51, 0.5); */
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    line-height: 2;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 7px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-left: 90px;
+    margin-top: 15px;
+    background-color: #2aaf33;
+    /* background-color: #4caf50; */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-left: 75px;
+}
